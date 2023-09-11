@@ -1,0 +1,22 @@
+
+{
+  "name": "codeceptjs_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "steps": "npx codeceptjs run --steps"
+   
+  },
+  "keywords": [],
+  "author": "",
+  
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "codeceptjs": "^3.5.4",
+    "playwright": "^1.37.1"
+  }
+
+}
