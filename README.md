@@ -2,7 +2,7 @@ Codeceptjs com Playwright:
 
 Nesse projeto foram utilizados Codeceptjs e Playwright para testes em um site específico do curso da Qazando.
 
-Comando utilizados para inciar o projeto:
+Comandos utilizados para inciar o projeto:
 
 npm init
 
