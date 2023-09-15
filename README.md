@@ -4,21 +4,21 @@ Nesse projeto foram utilizados Codeceptjs e Playwright para testes em um site es
 
 *Comandos utilizados para inciar o projeto:*
 
-npm init
+* npm init
 
-npm install codeceptjs playwright --save
+* npm install codeceptjs playwright --save
 
 *Plugin utilizado:*
 
-npm install -D @faker-js/faker
+* npm install -D @faker-js/faker
 
-const { faker } = require('@faker-js/faker');
+* const { faker } = require('@faker-js/faker');
 
-Page Objects:
+*Page Objects:*
 
-npx codeceptjs gpo
+* npx codeceptjs gpo
 
-const { I, myPage, mySteps } = inject();
+* const { I, myPage, mySteps } = inject();
 
 *Comando adicionados na pasta codecept.conf.js para adicionar screenshots de todo o processo de teste*
 
@@ -32,6 +32,6 @@ plugins:{
     
 *Codigo para roda no terminal*
 
-npx codeceptjs run --plugins stepByStepReport
+* npx codeceptjs run --plugins stepByStepReport
 
 PS.: SE QUISER VER TESTE POR TESTE MUDE NO ARQUIVO codecept.conf.js EM tests: './steps/*_test.js' MUDE O * PARA O NOME DE UM DOS ARQUIVOS DA PASTA steps OU COLOQUE/ DEIXE O * PARA RODAR TODOS
